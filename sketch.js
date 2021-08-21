@@ -43,5 +43,5 @@ function draw() {
 
 
 function blow(){
-  Body.applyForce(ball,{x:0,y:0},{x:0,y:0.01});
+  Body.applyForce(ball.body,{x:0,y:0},{x:0,y:0.01});
 }
